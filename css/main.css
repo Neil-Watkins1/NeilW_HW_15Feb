@@ -29,7 +29,8 @@ li {
 display:inline-block;
 background-color: rgba(175, 243, 236, 0.23);
 margin: 5px 5px;
-padding: 15 px;
-width: 35%;
+padding: 15px;
+width: 20%;
 text-indent: 10px;
+border-radius: 10px;
 }
