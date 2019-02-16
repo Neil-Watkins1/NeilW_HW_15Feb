@@ -1,0 +1,35 @@
+html {
+  background: url(mountain_background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+font-family: 'Playfair Display SC', serif;
+
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+
+}
+body {
+
+  font-size: 1em;
+}
+
+.form-item {
+  display:inline-block;
+}
+
+li {
+  border: 12px;
+display:inline-block;
+background-color: rgba(175, 243, 236, 0.23);
+margin: 5px 5px;
+padding: 15 px;
+width: 35%;
+text-indent: 10px;
+}
