@@ -41,11 +41,6 @@ const handleFormSubmit = function(event){
 piste.textContent = this.piste.value;
 listElement.appendChild(piste);
 
-const delButton = document.createElement('button');
-const buttonText = document.createTextNode ('Delete Run');
-delButton.appendChild(buttonText);
-// document.body.appendChild(delButton);
-
 
 
   const my_runs = document.querySelector('#my_runs');

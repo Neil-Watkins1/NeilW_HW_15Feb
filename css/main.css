@@ -6,13 +6,14 @@ html {
   background-size: cover;
 
 
-font-family: 'Playfair Display SC', serif;
+font-family: 'Neuton', serif;
 
 }
 
 h1 {
   font-size: 5em;
   text-align: center;
+  font-family: 'Special Elite', cursive;
 
 }
 body {
@@ -30,7 +31,23 @@ display:inline-block;
 background-color: rgba(175, 243, 236, 0.23);
 margin: 5px 5px;
 padding: 15px;
-width: 20%;
+width: 25%;
 text-indent: 10px;
 border-radius: 10px;
+font-size: 1.2em;
+}
+
+.page-buttons {
+  margin: auto;
+  padding: 5px;
+  text-align:center;
+
+}
+
+#save {
+  background: rgba(63, 191, 138, 0.26);
+}
+
+#delete-btn {
+  background: rgba(216, 12, 80, 0.26);
 }
