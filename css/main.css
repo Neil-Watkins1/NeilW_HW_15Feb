@@ -31,10 +31,12 @@ display:inline-block;
 background-color: rgba(175, 243, 236, 0.23);
 margin: 5px 5px;
 padding: 15px;
-width: 25%;
+width: auto;
+min-width: 200px;
 text-indent: 10px;
 border-radius: 10px;
 font-size: 1.2em;
+text-align: center;
 }
 
 .page-buttons {
@@ -50,4 +52,10 @@ font-size: 1.2em;
 
 #delete-btn {
   background: rgba(216, 12, 80, 0.26);
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

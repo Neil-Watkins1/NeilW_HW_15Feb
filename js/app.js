@@ -38,15 +38,16 @@ const handleFormSubmit = function(event){
 
 
   const piste = document.createElement('p');
-piste.textContent = this.piste.value;
-listElement.appendChild(piste);
+  piste.textContent = this.piste.value;
+  listElement.appendChild(piste);
+
 
 
 
   const my_runs = document.querySelector('#my_runs');
-my_runs.appendChild(listElement);
-
-// this.reset();
+  my_runs.appendChild(listElement);
+  
+  // this.reset();
 
 };
 
