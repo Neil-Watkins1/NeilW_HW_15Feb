@@ -47,7 +47,7 @@ const handleFormSubmit = function(event){
   const my_runs = document.querySelector('#my_runs');
   my_runs.appendChild(listElement);
   
-  // this.reset();
+  this.reset();
 
 };
 
